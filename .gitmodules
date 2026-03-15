@@ -1,0 +1,6 @@
+[submodule "GVHMR"]
+	path = GVHMR
+	url = git@github.com:KB-JiaHeng/GVHMR.git
+[submodule "GMR"]
+	path = GMR
+	url = git@github.com:KB-JiaHeng/GMR.git
