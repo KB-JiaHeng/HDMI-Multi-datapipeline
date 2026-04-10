@@ -1,0 +1,159 @@
+HumanMotionAnnotation:
+    # Dual move box (siheng) for 30 fps
+    dual_move_box_siheng_30fps:
+        box_medium:
+            pickup_crouch_frame: 95
+            pickup_standup_frame: 140
+            putdown_standup_frame: 279
+            putdown_crouch_frame: 344
+
+    # Dual move box (siheng) for 50 fps
+    dual_move_box_siheng_50fps:
+        box_medium:
+            pickup_crouch_frame: 151
+            pickup_standup_frame: 235
+            putdown_standup_frame: 461
+            putdown_crouch_frame: 576
+
+    dual_move_box1_siheng_30fps:
+        box_medium:
+            pickup_crouch_frame: 112
+            pickup_standup_frame: 170
+            putdown_standup_frame: 468
+            putdown_crouch_frame: 543
+    
+    dual_move_box2_siheng_30fps:
+        box_medium:
+            pickup_crouch_frame: 135
+            pickup_standup_frame: 191
+            putdown_standup_frame: 430
+            putdown_crouch_frame: 512
+
+    # /home/sihengzhao/research/GVHMR_ORIGINAL/docs/example_video/koi_single_box.mp4
+    single_move_box_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 108
+            pickup_standup_frame: 152
+            putdown_standup_frame: 178
+            putdown_crouch_frame: 250
+
+    # for single person box (koi 50fps)
+        # pickup_crouch_frame    = 173
+        # pickup_standup_frame   = 254
+        # putdown_standup_frame  = 291
+        # putdown_crouch_frame   = 415
+
+    # /home/sihengzhao/research/GVHMR_ORIGINAL/docs/example_video/koi_dual_box.mp4
+    dual_move_box_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 60
+            pickup_standup_frame: 114
+            putdown_standup_frame: 214
+            putdown_crouch_frame: 259
+
+    # /home/sihengzhao/research/GVHMR_ORIGINAL/docs/example_video/koi_dual_suitcase.mp4
+    dual_move_suitcase_koi_30fps:
+        suitcase:
+            pickup_crouch_frame: 73
+            pickup_standup_frame: 136
+            putdown_standup_frame: 214
+            putdown_crouch_frame: 281   
+
+    # /home/sihengzhao/research/GVHMR_ORIGINAL/docs/example_video/koi_dual_box2.mp4
+    dual_move_box2_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 128
+            pickup_standup_frame: 188
+            putdown_standup_frame: 256
+            putdown_crouch_frame: 381 
+
+    # /home/sihengzhao/research/GVHMR_ORIGINAL/docs/example_video/koi_dual_box3.mp4
+    dual_move_box3_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 158
+            pickup_standup_frame: 214
+            putdown_standup_frame: 282
+            putdown_crouch_frame: 413
+
+    dual_move_box4_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 198
+            pickup_standup_frame: 261
+            putdown_standup_frame: 296
+            putdown_crouch_frame: 371
+        
+    dual_move_box5_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 165
+            pickup_standup_frame: 245
+            putdown_standup_frame: 263
+            putdown_crouch_frame: 350
+
+    dual_move_box6_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 162
+            pickup_standup_frame: 231
+            putdown_standup_frame: 352
+            putdown_crouch_frame: 471
+
+    dual_move_box7_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 157
+            pickup_standup_frame: 217
+            putdown_standup_frame: 349
+            putdown_crouch_frame: 496
+
+    dual_move_box8_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 169
+            pickup_standup_frame: 235
+            putdown_standup_frame: 345
+            putdown_crouch_frame: 475
+
+    dual_move_box9_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 150
+            pickup_standup_frame: 223
+            putdown_standup_frame: 520
+            putdown_crouch_frame: 613
+
+    dual_move_box10_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 166
+            pickup_standup_frame: 280
+            putdown_standup_frame: 564
+            putdown_crouch_frame: 719
+    
+    dual_move_box11_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 292
+            pickup_standup_frame: 379
+            putdown_standup_frame: 614
+            putdown_crouch_frame: 739
+    
+    dual_move_box12_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 213
+            pickup_standup_frame: 293
+            putdown_standup_frame: 497
+            putdown_crouch_frame: 625
+
+    dual_move_box13_koi_30fps:
+        box_medium:
+            pickup_crouch_frame: 157
+            pickup_standup_frame: 272
+            putdown_standup_frame: 545
+            putdown_crouch_frame: 686
+
+ObjectConfig:
+# original box information in /home/sihengzhao/research/HDMI/active_adaptation/assets/objects/box_medium/box_medium_backup.usda
+# The scale information in /home/sihengzhao/research/HDMI/active_adaptation/assets/objects.py
+# original box (x, y, z) range in ([-1, 0], [-0.4, 0.4], [0.0, 0.8])
+    box_medium:
+        x_center: -0.5
+        y_center: 0.0
+        z_center: 0.0
+        
+        x_scale: 0.50
+        y_scale: 0.64
+        z_scale: 1.00
